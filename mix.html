@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>色板生成工具</title>
+		<link rel="stylesheet" href="css/color.css" />
+	</head>
+	<body>
+		
+		<!--
+        	作者：544754145@qq.com
+        	时间：2018-09-07
+        	描述：
+        	<script>
+			function main(color, index) {
+    				var isLight = index <= 6;
+   				var hsv = tinycolor(color).toHsv();
+    				var i = isLight ? lightColorCount + 1 - index : index - lightColorCount - 1;
+    				// i 为index与6的相对距离
+    				console.log(hsv)
+    				return tinycolor({
+       				h: getHue(hsv, i, isLight),
+        				s: getSaturation(hsv, i, isLight),
+        				v: getValue(hsv, i, isLight),
+    				}).toHexString();
+			};
+		</script>
+        -->
+		<div id="diy">
+			<input id="primary-color"/>
+			<button type="submit" id="bingo" class="primary-button">生成色板</button>
+		</div>
+		<div id="monofield">
+			<div class= "palette mono" id="mono1"></div>
+			<div class= "palette mono" id="mono2"></div>
+			<div class= "palette mono" id="mono3"></div>
+			<div class= "palette mono" id="mono4"></div>
+			<div class= "palette mono" id="mono5"></div>
+			<div class= "palette mono" id="mono6"></div>
+			<div class= "palette mono" id="mono7"></div>
+			<div class= "palette mono" id="mono8"></div>
+			<div class= "palette mono" id="mono9"></div>
+			<div class= "palette mono" id="mono10"></div>
+		</div>
+		<div id="grayfield">
+			<div class= "palette gray" id="gray1"></div>
+			<div class= "palette gray" id="gray2"></div>
+		</div>
+		
+		<script type="text/javascript" src="js/mix.js"></script>
+	</body>
+</html>

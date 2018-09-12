@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#test{
+				margin: auto;
+			}
+			#origin{
+				background-color: rgba(222,248,0,1);
+				margin: 20px;
+				width: 400px;
+				height: 400px;
+				float: left;
+				
+			}
+			#contrast{
+				background-color: rgba(222,248,0,1);
+				margin: 20px;
+				width: 400px;
+				height: 400px;
+				float: left;
+			}
+			#diy{
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="diy">
+			<input id="primary-color"/>
+			<button type="submit" id="bingo">生成色板</button>
+		</div>
+		<div id="test">
+			<div id="origin"></div>
+			<div id="contrast"></div>
+		</div>
+		<script src="https://unpkg.com/color-js@1.0.3/color.js"></script>
+		<script type="text/javascript" src="js/mixcolortest.js" ></script>
+	</body>
+</html>

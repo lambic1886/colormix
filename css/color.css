@@ -1,0 +1,60 @@
+#diy{
+
+	margin: auto;
+	padding: 20px;
+}
+
+
+*{
+	text-align: center;
+}
+
+.palette{
+	width: 236px;
+	height: 131px;
+	border: solid 2px #fff;
+	background-color: #16C4C6;
+	float: left;
+}
+
+#monofield{
+	margin: auto;
+	border: #F0F8FF;
+	width: 2400px;
+	height: 270px;
+}
+
+
+#grayfield{
+	margin: auto;
+	border: #F0F8FF;
+	width: 2400px;
+	height: 270px;
+}
+
+
+.primary-button{
+	width: 108px;
+	height: 36px;
+	background-color: #16C4C6;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #FFFFFF;
+	border: none;
+}
+
+.primary-button:hover{
+
+	background-color: #0D7576;
+	cursor: pointer;
+
+}
+
+
+input{
+	width: 240px;
+	height: 30px;
+	border: solid 1px #D5D9DD;
+	border-radius: 4px;
+	font-size: 14px;
+}

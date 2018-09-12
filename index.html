@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/color.css" />
+	</head>
+	<body>
+		
+		<!--
+        	作者：544754145@qq.com
+        	时间：2018-09-07
+        	描述：
+        	<script>
+			function main(color, index) {
+    				var isLight = index <= 6;
+   				var hsv = tinycolor(color).toHsv();
+    				var i = isLight ? lightColorCount + 1 - index : index - lightColorCount - 1;
+    				// i 为index与6的相对距离
+    				console.log(hsv)
+    				return tinycolor({
+       				h: getHue(hsv, i, isLight),
+        				s: getSaturation(hsv, i, isLight),
+        				v: getValue(hsv, i, isLight),
+    				}).toHexString();
+			};
+		</script>
+        -->
+		<div id="diy">
+			<input id="primary-color"/>
+			<button type="submit" id="bingo">生成色板</button>
+		</div>
+		<div id="testfield">
+			<div class= "palette" id="palette1"></div>
+			<div class= "palette" id="palette2"></div>
+			<div class= "palette" id="palette3"></div>
+			<div class= "palette" id="palette4"></div>
+			<div class= "palette" id="palette5"></div>
+			<div class= "palette" id="palette6"></div>
+			<div class= "palette" id="palette7"></div>
+			<div class= "palette" id="palette8"></div>
+			<div class= "palette" id="palette9"></div>
+			<div class= "palette" id="palette10"></div>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/colortest.js"></script>
+		<!-- 
+			<script type="text/javascript" src="js/color.js"></script>
+		-->
+	</body>
+</html>
